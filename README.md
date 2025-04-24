@@ -1,72 +1,79 @@
-# Social Media Advertising Dashboard
+# Online Sales Dashboard
 
 ## Description
-This repository contains a **comprehensive Power BI dashboard** for analyzing social media advertising campaigns. It includes data cleaning with Python, exploratory visualizations, and a multi-page Power BI dashboard focusing on campaign performance, audience engagement, and channel effectiveness. The dashboard is designed to analyze campaign performance, audience engagement, and channel effectiveness based on data from January 2022 to December 2022. It provides actionable insights for marketers, analysts, and decision-makers to optimize advertising strategies.
+This repository contains a **comprehensive Power BI dashboard** for analyzing Online Sales. It includes data cleaning with Powerquery, exploratory visualizations, and a multi-page Power BI dashboard focusing on sales performance, cutomers, and time series and other insights. The dashboard is designed to analyze sales performance, cutomers, and time series based on data from January 2010 to December 2014. It provides actionable insights for marketers, analysts, and decision-makers to optimize advertising strategies.
 
 ## Features
 
-### 1. Data Cleaning Using Python
-- Cleaned the dataset with Python (`pandas`, `numpy`).
-- Key steps:
-  - Filled missing ROI values with the mean.
-  - Converted `Acquisition_Cost` to a numeric format.
-  - Created a new feature: `Total_Spend` (Clicks × Acquisition_Cost).
-  - Converted the `Date` column to datetime format.
+### 1. Data Cleaning Using Powerquery
+
+  - check missing values and remove blank rows
+  - Change columns data types to correct one.
+  - Created a new feature: `AgeGroup` .
+  - renamed columns correctly.
   - Exported cleaned data for Power BI integration.
 
 ---
 
 ### 2. Power BI Dashboard
-#### 1. **Campaign Overview**
-- **Key Visualizations:**
-  - **Total Campaigns:** 300,000 campaigns analyzed.
-  - **Total Acquisition Cost:** $2.3 billion.
-  - **Top Segment:** Health.
-  - **ROI Trend:** Average ROI of 3.18, with trends from January 2022 to December 2022.
-  - **Top 5 Companies by ROI:** Attire Artistry, Balance Beam, Culinary Quest, Space Spruce, and Style Sphere.
-  - **Campaign Distribution by Customer Segment:** Health (19.98%), Home (20.03%), Food (19.98%), Fashion (20.02%), Technology (20.02%).
+**Sales Performance Analysis**
+📌 Key Sales Metrics:
+   🔹 Total Sales: $29.36M 💰
+   🔹 Total Transactions: 106K 
+   🔹 Average Unit Price: $486.09 
+   🔹 Top Shipping Region: Europe 
+   🔹 Best-Selling Categories: Accessories & Bikes
+   
+  ![Sales Performance](Screen Shoots/SalesPerformance.PNG)
+---
 
-![Campaign Overview](Screenshots/campaign_overview.png)
+**Customers Analysis**
+👨‍👨‍👧 Customer Insights:
+ ➖ Gender Distribution:
+ 49.41% Female
+ 50.59% Male
+ ➖ Marital Status Impact on Sales:
+ ◾ 97K sales from married customers
+ ◾ 10K sales from single customers
+ ➖ Average Customer Annual Income: $98K
+ ➖ Top Spending Customer Segment:
+ ◾ Male customers aged 35-50 with high annual income spend the most per order.
+
+![Customers](Screen Shoots/Customers.PNG)
 
 ---
 
-#### 2. **Campaign Performance Analysis**
-- **Key Visualizations:**
-  - **Total Clicks:** 5 billion.
-  - **Total Impressions:** 17 billion.
-  - **Total Conversions:** 436.01 million.
-  - **Top Spender:** Space Spruce ($1.15 trillion).
-  - **Distribution of Campaign Goals:** Brand Awareness (75,248 campaigns), Increase Sales, Market Expansion, Product Launch.
-  - **ROI by Company:** Attire Artistry had the highest ROI (323.46%).
+**Time Series and Extra Insights**
+💰 Pricing & Cost Analysis:
+ ◾ Average Product Cost: $286.07
+ ◾ Average Tax per Order: $38.89
+ ◾ Profit Margin: 42% 📈
 
-![Campaign Performance](Screenshots/campaign_performance.png)
+🗺️ Regional Insights:
+ ➖ Top Performing Regions by Sales Volume:
+ ◾ Europe – $12.4M
+ ◾ North America – $10.8M
+ ◾ Asia-Pacific – $6.16M
+✨ Fastest-Growing Market: Asia-Pacific, with a 15% YoY sales increase.
 
----
 
-#### 3. **Audience Segmentation and Engagement**
-- **Key Visualizations:**
-  - **Total Target Audience Reached:** 300,000.
-  - **Most Popular Campaign Goal:** Brand Awareness.
-  - **Location with Highest ROI:** New York.
-  - **Average Engagement Score:** 4.37.
-  - **Engagement Score Over Months:** Peaked from December 2022 to January 2022 (10.00).
-  - **Target Audience by Campaign Goal:** Women 18-24 (33.6%), Men 25-34 (23.8%), Women 25-34 (23.8%).
+📈 Additional Insights:
+ 🔸 Age Demographics:
+ ▪️ Majority of customers fall within the age range of 25-45, highlighting a younger, more dynamic market. This suggests that marketing efforts should focus on platforms and campaigns targeting younger consumers.
+ 🔸 Discount Impact:
+ Products that were discounted saw an average sales increase of 15%, proving that strategic discounting can drive customer demand without sacrificing too much profit margin.
+ 🔸 Seasonality Patterns:
+ ▪️️ Sales data shows peak activity in Q3, suggesting that seasonal trends or product launches during this period should be prioritized for maximum ROI.
+ 🔸 Customer Loyalty:
+ ▪️️ A 10% increase in repeat customers correlates with a 25% increase in sales revenue, demonstrating the importance of customer retention strategies.
+ 🔸 Region-Specific Trends:
+ ▪️️ Europe leads in total sales, but the Asia Pacific region shows growing potential with a 20% increase in sales YoY, signaling an opportunity for further market penetration.
 
-![Audience Segmentation](Screenshots/audience_segmentation.png)
 
----
-
-#### 4. **Channel Performance Comparison**
-- **Key Visualizations:**
-  - **Total Impressions:** 17 billion (Facebook: 4.4 billion, Instagram: 3.0 billion, Twitter: 2.0 billion, Pinterest: 1.58 billion).
-  - **Total Clicks:** 5 billion (Facebook: 1.52 billion, Instagram: 1.52 billion, Twitter: 1.52 billion, Pinterest: 0.85 billion).
-  - **Total Conversions:** 436.01 million.
-  - **Total Spend Across Channels:** $55 trillion.
-  - **Top Performer:** Facebook (1.52 billion clicks).
-
-![Channel Performance](Screenshots/channel_performance.png)
+![Time Series](Screen Shoots/TimeSeries.PNG)
 
 ---
+
 
 ## Files Included
 - **Dashboard.pbix:** Power BI file with the full dashboard.
@@ -76,43 +83,20 @@ This repository contains a **comprehensive Power BI dashboard** for analyzing so
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sohilakhaledabbas/social-media-advertising-dashboard.git
+   git clone 'https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard.git'
+
    ```
 2. Open the `Dashboard.pbix` file in Power BI Desktop.
 3. Explore the pages and interact with the visualizations.
 
-## Insights Derived
-- Campaign ROI analysis by company.
-- Audience engagement trends over time.
-- Channel effectiveness comparison.
-- Geographical distribution of campaign performance.
 
-## Tools & Technologies
-- Python: pandas, numpy, matplotlib, seaborn
+## Tools & Technologies & Features
+- Powerquery
+- Data Modeling
+- Dax
 - Power BI: Interactive dashboard design
-- Dataset: [Social Media Advertising Dataset on Kaggle](https://www.kaggle.com/datasets/jsonk11/social-media-advertising-dataset/data)
+- Dataset: [Online Sales](https://docs.google.com/spreadsheets/d/1xlHvqVJyI1x9pDho9xywAqrGSra0Da6A/edit?usp=sharing&ouid=113280610288310962621&rtpof=true&sd=true)
 
----
-
-## Python Code for Data Cleaning
-```python
-# Import necessary libraries
-import pandas as pd
-import numpy as np
-
-# Load the dataset
-file_path = r"Social_Media_Advertising.csv"
-df = pd.read_csv(file_path)
-
-# Data Cleaning
-df['ROI'].fillna(df['ROI'].mean(), inplace=True)
-df['Acquisition_Cost'] = df['Acquisition_Cost'].replace('[\$,]', '', regex=True).astype(float)
-df['Date'] = pd.to_datetime(df['Date'])
-df['Total_Spend'] = df['Acquisition_Cost'] * df['Clicks']
-
-# Save the cleaned dataset
-df.to_csv("Social_Media_Advertising_Cleaned.csv", index=False)
-```
 ---
 ## Feedback
 
