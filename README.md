@@ -100,7 +100,7 @@ This repository contains a **comprehensive Power BI dashboard** for analyzing On
 ---
 ## Feedback
 
-If you have any suggestions or feedback, feel free to open an issue or connect with me on [LinkedIn](www.linkedin.com/in/sohilakhaledabbas).
+If you have any suggestions or feedback, feel free to open an issue or connect with me on [LinkedIn](https://www.linkedin.com/in/safaali-da/).
 
 ---
 
