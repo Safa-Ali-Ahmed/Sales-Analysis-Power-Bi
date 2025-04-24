@@ -14,7 +14,6 @@ This repository contains a **comprehensive Power BI dashboard** for analyzing On
   - Exported cleaned data for Power BI integration.
 
 ---
-
 ### 2. Power BI Dashboard
 **Sales Performance Analysis**
 📌 Key Sales Metrics:
@@ -23,8 +22,10 @@ This repository contains a **comprehensive Power BI dashboard** for analyzing On
    🔹 Average Unit Price: $486.09 
    🔹 Top Shipping Region: Europe 
    🔹 Best-Selling Categories: Accessories & Bikes
-   
-  ![Sales Performance](Screen Shoots/SalesPerformance.PNG)
+
+![Customers](https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard/blob/main/Screen%20Shoots/SalesPerformance.PNG)
+
+
 ---
 
 **Customers Analysis**
@@ -39,7 +40,7 @@ This repository contains a **comprehensive Power BI dashboard** for analyzing On
  ➖ Top Spending Customer Segment:
  ◾ Male customers aged 35-50 with high annual income spend the most per order.
 
-![Customers](Screen Shoots/Customers.PNG)
+![Customers](https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard/blob/main/Screen%20Shoots/Customers.PNG)
 
 ---
 
@@ -69,8 +70,7 @@ This repository contains a **comprehensive Power BI dashboard** for analyzing On
  🔸 Region-Specific Trends:
  ▪️️ Europe leads in total sales, but the Asia Pacific region shows growing potential with a 20% increase in sales YoY, signaling an opportunity for further market penetration.
 
-
-![Time Series](Screen Shoots/TimeSeries.PNG)
+![Customers](https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard/blob/main/Screen%20Shoots/TimeSeries.PNG)
 
 ---
 
