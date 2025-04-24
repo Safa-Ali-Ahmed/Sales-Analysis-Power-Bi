@@ -14,6 +14,9 @@ This repository contains a **comprehensive Power BI dashboard** for analyzing On
   - Exported cleaned data for Power BI integration.
 
 ---
+
+![Customers](https://github.com/Safa-Ali-Ahmed/Online-Sales-Dashboard/blob/main/Screen%20Shoots/HomePage.PNG)
+
 ### 2. Power BI Dashboard
 **Sales Performance Analysis**
 📌 Key Sales Metrics:
