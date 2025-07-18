@@ -1,7 +1,7 @@
 # Sales Analysis Dashboard
 
 ## Description
-This repository contains a **comprehensive Power BI dashboard** for analyzing Online Sales. It includes data cleaning with Powerquery, exploratory visualizations, and a multi-page Power BI dashboard focusing on sales performance, cutomers, places and time series and other insights. The dashboard is designed to analyze sales performance, cutomers, and time series based on data from January 2018 to December 2020. It provides actionable insights for marketers, analysts, and decision-makers to optimize advertising strategies.
+analyzing Sales. It includes data cleaning with Powerquery, exploratory visualizations, and a multi-page Power BI dashboard focusing on sales performance, cutomers, places and time series and other insights. The dashboard is designed to analyze sales performance, cutomers, and time series based on data from January 2018 to December 2020. It provides actionable insights for marketers, analysts, and decision-makers to optimize advertising strategies.
 
 ## Features
 
