@@ -12,10 +12,10 @@ analyzing Sales. It includes data cleaning with Powerquery, exploratory visualiz
   - Created a new feature: `Total Sales,total discounts,total unit price ......` .
   - renamed columns correctly.
   - Exported cleaned data for Power BI integration.
+<img width="1523" height="815" alt="cap 1" src="https://github.com/user-attachments/assets/c14c6f5d-8818-4759-88d7-ab88ef4382a7" />
 
 ---
 
-![Customers](https://github.com/Safa-Ali-Ahmed/Sales-Analysis/blob/main/Screen%20Shoots/HomePage.PNG)
 
 ### 2. Power BI Dashboard
 1️⃣ Sales Performance Overview
@@ -29,7 +29,8 @@ analyzing Sales. It includes data cleaning with Powerquery, exploratory visualiz
  ✅ Others with lower sales make higher profits due to premium pricing & lower discount rates.
 
 
-![Customers](https://github.com/Safa-Ali-Ahmed/Sales-Analysis/blob/main/Screen%20Shoots/Sales%20Overview.PNG)
+<img width="1914" height="1022" alt="cap 2" src="https://github.com/user-attachments/assets/39a3adde-45af-4b9f-b76b-34943cfaae41" />
+
 
 
 ---
@@ -48,7 +49,8 @@ analyzing Sales. It includes data cleaning with Powerquery, exploratory visualiz
  🔹 Low Revenue, High Profit (Hidden Gems) – These customers have potential but need targeted marketing.
  🔹 Low Revenue, Low Profit (High-Risk Customers) – Understand their behaviors & reassess engagement strategies.
 
-![Customers](https://github.com/Safa-Ali-Ahmed/Sales-Analysis/blob/main/Screen%20Shoots/Customers.PNG)
+<img width="1920" height="1009" alt="cap 3" src="https://github.com/user-attachments/assets/463fcda5-f8f0-4662-8fb0-71959b48faba" />
+
 
 ---
 3️⃣ Geospatial Sales & Market Expansion
@@ -58,7 +60,8 @@ analyzing Sales. It includes data cleaning with Powerquery, exploratory visualiz
  ✅ Underperforming regions reveal gaps in brand awareness or supply chain inefficiencies.
  ✅ Seasonal Trends by Region – Sales move in certain cities only during specific months.
 
-![Customers](https://github.com/Safa-Ali-Ahmed/Sales-Analysis/blob/main/Screen%20Shoots/Places.PNG)
+
+![Uploading cap 5.PNG…]()
 
 ---
 
@@ -69,7 +72,8 @@ analyzing Sales. It includes data cleaning with Powerquery, exploratory visualiz
  ◾ Biggest revenue spike in Q2 2020 
  ◾ Weekend Sales Outperform Weekdays 
 
-![Customers](https://github.com/Safa-Ali-Ahmed/Sales-Analysis/blob/main/Screen%20Shoots/TimeSeries.PNG)
+<img width="1919" height="1025" alt="cap 4" src="https://github.com/user-attachments/assets/efea7b84-885c-41f5-b1a6-74be7f6b483d" />
+
 
 ---
 
