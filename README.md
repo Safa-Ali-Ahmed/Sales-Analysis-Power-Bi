@@ -72,7 +72,6 @@ analyzing Sales. It includes data cleaning with Powerquery, exploratory visualiz
  ◾ Biggest revenue spike in Q2 2020 
  ◾ Weekend Sales Outperform Weekdays 
 
-![Uploading cap 5.PNG…]()
 
 
 
