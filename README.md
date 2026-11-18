@@ -107,11 +107,5 @@ If you have any suggestions or feedback, feel free to open an issue or connect w
 
 ---
 
-## Future Enhancements
-- Integration with live data sources.
-- Advanced machine learning insights using Python/R integration.
-- Adding more custom visuals for deeper analysis.
----
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+
 
